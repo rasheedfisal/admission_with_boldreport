@@ -25,7 +25,7 @@ const AdmissionReport = () => {
     <LazyLoad>
       <BoldReportViewer
         //   serviceURL={"http://nvsapi.smartschool.sd/api/AdmissionViewer"}
-        serviceURL="https://localhost:7153/api/AdmissionViewer"
+        serviceURL="http://194.195.87.30:93/api/AdmissionViewer"
         reportPath="school.rdl"
         paremeters={param}
       />
